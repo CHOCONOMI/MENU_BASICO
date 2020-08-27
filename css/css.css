@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Indie Flower', cursive;
+}
+
+.cima {
+    width: 100%;
+    height: 60px;
+    background: rgba(84,255,152,1);
+    background: -moz-linear-gradient(left, rgba(84,255,152,1) 0%, rgba(69,230,230,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(84,255,152,1)), color-stop(100%, rgba(69,230,230,1)));
+    background: -webkit-linear-gradient(left, rgba(84,255,152,1) 0%, rgba(69,230,230,1) 100%);
+    background: -o-linear-gradient(left, rgba(84,255,152,1) 0%, rgba(69,230,230,1) 100%);
+    background: -ms-linear-gradient(left, rgba(84,255,152,1) 0%, rgba(69,230,230,1) 100%);
+    background: linear-gradient(to right, rgba(84,255,152,1) 0%, rgba(69,230,230,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54ff98', endColorstr='#45e6e6', GradientType=1 );
+}
+
+.logo {
+    width: 45px;
+    margin: 25px;
+    margin-top: 5px;
+    float:left;
+}
+
+.menu {
+    float:left;
+    margin-left: 75px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #0b6f9e;
+    font-size: 20px;
+    padding: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.menu a:hover{
+    background-color: #99ffa8;
+    color: #ffffff;
+}
